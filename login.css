@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/08/38/58/56/360_F_838585643_CWlGsg7CDSaMsZnJ0PufwH5t6B65DfXj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form{
+    color: white;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+    padding: 30px 50px;
+    justify-content: center;
+    background-color: rgba(6, 6, 6, 0.5);
+    margin: 10% 35%;
+    box-shadow: inset -5px -5px -5px rgba(0, 0, 0, 0.5);
+    filter: blur(0.1px);
+}
+label{
+    font-size: larger;
+}
+input.text{
+    border-radius: 30px;
+    border: 1px  solid white;
+    width: 350px;
+    height: 12%;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    padding-left: 10px;
+}
+input.password{
+    border-radius: 30px;
+    border: 1px  solid white;
+    width: 350px;
+    height: 12%;
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    padding-left: 10px;
+}
+button{
+    margin-left: 30px;
+    width: 300px;
+    height:12%;
+    border-radius: 30px;
+}
+.form .pass{
+    color: white;
+    margin-left: 220px;
+}
+.form a{
+    color: white;
+}
+.form p{
+    margin-left: 80px;
+}
