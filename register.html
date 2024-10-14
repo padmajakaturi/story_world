@@ -8,13 +8,39 @@
 </head>
 <body>
     <form action="" class="form">
-        <label for="">Name</label> <hr>
+        <h2>WELCOMME TO STORY WORLD!</h2>
+        <h3>Shopping Registration Form</h3>
+        <p class="i">please fillout the form below to register.</p> <br><br>
+        <label for="">First Name:</label>
+        <input type="text" class="text" required>
+        <label for="">Last Name:</label>
         <input type="text" class="text" required><br><br>
-        <label for="">Password</label> <br><br>
-        <input type="password" class="password" required ><br><br>
-        <a href="" class="pass">forgot password!</a><br><br>
-        <button>Login</button><br>
-        <p>Don't have account?<a href="">Register</a></p>
+        <label for="">Email address:</label> 
+        <input type="email" class="mail" required ><br><br>
+        <label for="">mobile no:</label>
+        <input type="text" class="text" required>
+        <label for="">Gender:</label>
+        <select name="gender" class="gender">
+            <option value="male" >Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        <label for="">Address:</label><br><br>
+        <label for="">street address:</label><br><br>
+        <input type="text" class="add" required><br><br>
+        <label for="">city:</label>
+        <input type="text" class="text" required>
+        <label for="">zip code:</label>
+        <input type="text" class="text" required><br><br>
+        <button onclick="fun()">Register</button><br>
+        <p class="last">Already have account? <a href="login.html">login here!</a></p>
     </form>
+    <script>
+        let a=document.getElementsByClassName("form")[0]
+            function fun()
+             {
+                a.innerHTML="Registration succesful!";
+            }
+        
+    </script>
 </body>
 </html>
