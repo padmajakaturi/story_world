@@ -8,13 +8,22 @@
 </head>
 <body>
     <form action="" class="form">
+        <h3>WELCOME BACK!</h3>
         <label for="">Username</label> <br><br>
         <input type="text" class="text" required><br><br>
         <label for="">Password</label> <br><br>
         <input type="password" class="password" required ><br><br>
         <a href="" class="pass">forgot password!</a><br><br>
-        <button>Login</button><br>
+        <button onclick="fun()">Login</button><br>
         <p>Don't have account?<a href="register.html">Register</a></p>
     </form>
+    <script>
+        let a=document.getElementsByClassName("form")[0]
+            function fun()
+             {
+                a.innerHTML="welcome back to story world!";
+            }
+        
+    </script>
 </body>
 </html>
