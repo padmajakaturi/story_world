@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://t3.ftcdn.net/jpg/08/38/58/56/360_F_838585643_CWlGsg7CDSaMsZnJ0PufwH5t6B65DfXj.jpg");
+    background-image: url("https://t3.ftcdn.net/jpg/06/27/85/70/360_F_627857017_5r2FsJYJeZfufqiXcUvKCENF3fz4xFyg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -9,14 +9,18 @@ body{
     box-sizing: border-box;
     border: 3px solid black;
     border-radius: 10px;
-    width: 30%;
-    height: 400px;
+    width: 25%;
+    height: 450px;
     padding: 30px 50px;
     justify-content: center;
     background-color: rgba(6, 6, 6, 0.5);
-    margin: 10% 35%;
+    margin: 9% 36%;
     box-shadow: inset -5px -5px -5px rgba(0, 0, 0, 0.5);
     filter: blur(0.1px);
+}
+.form h3{
+    text-align: center;
+    color: gold;
 }
 label{
     font-size: larger;
@@ -24,36 +28,43 @@ label{
 input.text{
     border-radius: 30px;
     border: 1px  solid white;
-    width: 350px;
+    width: 270px;
     height: 12%;
     background-color: transparent;
     color: white;
-    font-size: large;
+    font-size: small;
     padding-left: 10px;
+    
 }
 input.password{
     border-radius: 30px;
     border: 1px  solid white;
-    width: 350px;
+    width: 270px;
     height: 12%;
     background-color: transparent;
     color: white;
-    font-size: large;
+    font-size: small;
     padding-left: 10px;
 }
 button{
     margin-left: 30px;
-    width: 300px;
+    width: 200px;
     height:12%;
     border-radius: 30px;
 }
+button:hover{
+    background-color: rgb(154, 221, 199);
+}
 .form .pass{
     color: white;
-    margin-left: 220px;
+    margin-left: 150px;
 }
 .form a{
     color: white;
 }
 .form p{
-    margin-left: 80px;
+    margin-left: 40px;
+}
+.form a:hover{
+    color: skyblue;
 }
