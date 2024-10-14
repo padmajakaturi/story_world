@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://t3.ftcdn.net/jpg/08/38/58/56/360_F_838585643_CWlGsg7CDSaMsZnJ0PufwH5t6B65DfXj.jpg");
+    background-image: url("https://t3.ftcdn.net/jpg/06/27/85/70/360_F_627857017_5r2FsJYJeZfufqiXcUvKCENF3fz4xFyg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -9,26 +9,63 @@ body{
     box-sizing: border-box;
     border: 3px solid black;
     border-radius: 10px;
-    width: 30%;
-    height: 400px;
+    width: 49%;
+    height: 680px;
     padding: 30px 50px;
     justify-content: center;
     background-color: rgba(6, 6, 6, 0.5);
-    margin: 10% 35%;
+    margin: 30px 28%;
     box-shadow: inset -5px -5px -5px rgba(0, 0, 0, 0.5);
     filter: blur(0.1px);
 }
+.form h2{
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(239, 194, 13);
+}
+.form h3{
+    text-align: left;
+    color: bisque;
+}
+.form .i{
+    font-size: x-small;
+    text-align: left;
+}
 label{
     font-size: larger;
+    font-weight: 600;
 }
 input.text{
-    width: 350px;
-    box-sizing: border-box;
-    border: none;
+    border-radius: 30px;
+    border: 1px  solid white;
+    width: 200px;
+    height: 5%;
     background-color: transparent;
     color: white;
-    font-size: large;
+    font-size: small;
     padding-left: 10px;
+}
+.mail{
+    border-radius: 30px;
+    border: 1px  solid white;
+    width: 490px;
+    height: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: small;
+    padding-left: 10px;
+}
+.gender{
+    border-radius: 30px;
+    border: 1px  solid white;
+    width: 200px;
+    height: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: small;
+}
+select option{
+    background-color: black;
 }
 input.password{
     border-radius: 30px;
@@ -40,11 +77,16 @@ input.password{
     font-size: large;
     padding-left: 10px;
 }
+
 button{
-    margin-left: 30px;
-    width: 300px;
-    height:12%;
+    margin-left:200px ;
+    width: 200px;
+    height:7%;
     border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button:hover{
+    background-color: aquamarine;
 }
 .form .pass{
     color: white;
@@ -53,6 +95,20 @@ button{
 .form a{
     color: white;
 }
-.form p{
-    margin-left: 80px;
+.form a:hover{
+    color:skyblue;
 }
+.add{
+    border-radius: 30px;
+    border: 1px  solid white;
+    width: 490px;
+    height: 5%;
+    background-color: transparent;
+    color: white;
+    font-size: small;
+    padding-left: 10px;
+}
+.last{
+    margin-left: 200px;
+}
+
