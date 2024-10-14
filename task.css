@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: aliceblue;
+    background-color: floralwhite;
 }
 .top{
     box-sizing: border-box;
@@ -13,7 +13,8 @@ body{
 }
 nav{
     display: flex;
-    background-color: black;
+    background-color: #fecc2f;
+    border: 2px solid black;
     padding: 10px 10px 10px 40px;
     justify-content: space-between;
 }
@@ -32,7 +33,7 @@ nav{
    
 }
 .logo h1{
-text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;    padding: 15px 15px;
+text-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;    padding: 15px 15px;
     border-radius: 2px 20px;
 }
 .action{
@@ -42,11 +43,14 @@ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px
     margin: 0px 20px 0px 0px;
 }
 .action a{
-    color: white;
-    list-style: none;;
+    color: black;
+    list-style: none;
+    text-decoration: none;
 }
 .action a:hover{
-    color: orange;
+    transform: scale(1.3);
+    color: green;
+    
 }
 .menu{
     width: 35px;
@@ -64,15 +68,14 @@ text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px
    height: 50vh;
    overflow: hidden;
   margin-top: 0.3%;
+  position: relative;
 }
 video{
     width: 100%;
     height:100%;
     object-fit: cover;
 }
-.video {
-    position: relative;
-}
+
 .overlay{
     box-sizing: border-box;
     border: 2px solid white;
@@ -142,7 +145,7 @@ button:hover{
     margin: 0px 7px;
 }
 .item:hover{
-    transform: scale(1.02);
+    transform: scale(1.04);
     
 }
 .items img{
@@ -297,3 +300,56 @@ footer .col a{
 .sides:hover{
     color: black;
 }
+ .up{
+    width: 100%;
+}
+ .mid{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(87, 95, 169);
+    margin-top: -10px;
+}
+.c{
+    width: 15vh;
+    height: 15vh;
+    margin: 100px 30px 10px 30px;
+    padding: 50px 0px 0px 0px;
+    font-size:xx-large;
+    color: white;  
+}
+.count{
+    font-size: large;
+    margin-left: 20px;
+}
+ .bottom{
+    margin-top: 0px;
+    width: 100%;
+}
+.d1{
+    margin: 0px 100px 0px 30px;
+    animation: shake 10s infinite;
+
+}
+.d2{
+    margin: 0px 20px 0px 20px;
+    animation: shake 10s infinite;
+}
+@keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(100px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    75% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
