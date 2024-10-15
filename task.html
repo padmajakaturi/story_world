@@ -38,8 +38,8 @@
 </div><br>
 <h2 class="head">BOOKS FOR KIDS</h2><hr>
 <div class="items">
-    <div class="item">
-        <img src="https://offshootbooks.com/cdn/shop/products/91RymPCiVVL_700x700.jpg?v=1652863227" class="card-img-top" alt="...">
+    <div class="item" >
+        <img src="https://offshootbooks.com/cdn/shop/products/91RymPCiVVL_700x700.jpg?v=1652863227" class="card-img-top" alt="..." onclick="item()">
         <div class="ibody">
             <p class="card-text">Beauty And The Beast Story Book For Children</p>
             <div class="prize"> <h2 class="cost">Rs.220.00<h5><del>Rs.249.00</del></h5></h2></div>
@@ -187,17 +187,7 @@
             </div>
         </div>
     </div>
-    </div>
-    <img src="https://cdn.shopify.com/s/files/1/0640/7123/7846/files/up-blue-cloud-preschool-expert.jpg?v=1651225701" class="up" alt="">
-    <div class="mid">    
-        <img src="https://cdn.shopify.com/s/files/1/0640/7123/7846/files/offshoot_books_260x340_0ce2c930-66ef-4a95-ad05-93ead8f8e6bd.png?v=1669706979" class="d1" alt="">
-            <div class="c"><span class="count"> 200+</span><br>Titles</div>
-            <div class="c"><span class="count"> 20k+</span><br>Happy<br>Readers</div>
-            <div class="c"><span class="count"> 100+</span><br>Authors</div>
-        <img src="https://cdn.shopify.com/s/files/1/0640/7123/7846/files/offshoot_book_yellow_260x340_c084aea8-03d2-4f5a-8d7f-63b4cfeaed06.png?v=1669707050" class="d2" alt="">
-    </div>
-    <img src="https://cdn.shopify.com/s/files/1/0640/7123/7846/files/up-yello-bluecloud-parents-video.jpg?v=1651226239" class="bottom" alt="">
-
+</div>
     <footer>
         <div class="row">
             <div class="col">
@@ -239,6 +229,10 @@
         else{
             a.innerHTML="🤍";
         }
+    }
+    function item(){
+        let a=document.getElementsByClassName("card-img-top")[0];
+        a.innerHTML=open("beauty.html");
     }
     </script>
 </body>
