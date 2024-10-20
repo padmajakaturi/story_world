@@ -1,46 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
+
 <body>
-    <form action="" class="form">
+    <nav>
+        <div class="logo">
+            <img src="pngwing.com.png" alt="">
+            <h1>STORY WORLD</h1>
+        </div>
+        <div class="action">
+            <a href="index.html" class="Home">Home</a>
+            <a href="about.html" class="about">About</a>
+            <!--<a href="" class="shop">Shop</a>-->
+            <a href="contact.html" class="contact">contactus</a>
+            <a href="register.html" class="login">login/signup</a>
+
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+    </nav>
+    <form class="form">
         <h2>WELCOMME TO STORY WORLD!</h2>
-        <h3>Shopping Registration Form</h3>
-        <p class="i">please fillout the form below to register.</p> <br><br>
+        <p class="i">please fill the form below to signup.</p> <br><br>
         <label for="">First Name:</label>
-        <input type="text" class="text" required>
+        <input type="text" class="text" id="name" required>
         <label for="">Last Name:</label>
         <input type="text" class="text" required><br><br>
-        <label for="">Email address:</label> 
-        <input type="email" class="mail" required ><br><br>
-        <label for="">mobile no:</label>
+        <label for="">Email address:</label>
+        <input type="email" class="mail" required><br><br>
+        <label for="">Mobile no:</label>
         <input type="text" class="text" required>
         <label for="">Gender:</label>
         <select name="gender" class="gender">
-            <option value="male" >Male</option>
+            <option value="male">Male</option>
             <option value="female">Female</option>
         </select><br><br>
         <label for="">Address:</label><br><br>
-        <label for="">street address:</label><br><br>
+        <label for="">Street address:</label><br><br>
         <input type="text" class="add" required><br><br>
-        <label for="">city:</label>
+        <label for="">City:</label>
         <input type="text" class="text" required>
-        <label for="">zip code:</label>
-        <input type="text" class="text" required><br><br>
-        <button onclick="fun()">Register</button><br>
+        <label for="">Zip code:</label>
+        <input type="text" class="text" required><br><br><br>
+        <button class="reg" onclick="f()">Sign Up</button><br>
         <p class="last">Already have account? <a href="login.html">login here!</a></p>
     </form>
+    <div class="l">@team Story World</div>
+    </button>
+
+
     <script>
-        let a=document.getElementsByClassName("form")[0]
-            function fun()
-             {
-                a.innerHTML="Registration succesful!";
-            }
-        
+        function f() {
+            const name = document.getElementById('name').value;
+            alert(`Welcome  to story world  ${name}!!`);
+
+        }
     </script>
 </body>
+
 </html>

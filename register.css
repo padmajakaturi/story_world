@@ -1,19 +1,63 @@
 body{
-    background-image: url("https://t3.ftcdn.net/jpg/06/27/85/70/360_F_627857017_5r2FsJYJeZfufqiXcUvKCENF3fz4xFyg.jpg");
+    background-image: url("https://images.pexels.com/photos/3214110/pexels-photo-3214110.jpeg?cs=srgb&dl=pexels-frank-cone-140140-3214110.jpg&fm=jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+nav{
+    display: flex;
+    background: url("https://t4.ftcdn.net/jpg/06/57/60/37/360_F_657603720_ZTnJLn9wKzEaz1LwfmtfM1NInRvySUCQ.jpg");
+
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 10px 10px 40px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px gray ;
+    color: white;
+}
+.logo img{
+    object-fit: contain;
+    max-width: 15%;
+    align-items: center;
+    shadow: 15px 5px 70px rgb(132, 227, 132);
+   
+}
+.logo h1{
+text-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;    padding: 15px 15px;
+    border-radius: 2px 20px;
+}
+.action{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+.action a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.action a:hover{
+    transform: scale(1.3);
+    text-decoration-line: underline;
+   
+}
 .form{
     color: white;
     box-sizing: border-box;
-    border: 3px solid black;
+    border: 3px solid rgb(4, 4, 4);
     border-radius: 10px;
     width: 49%;
     height: 680px;
     padding: 30px 50px;
     justify-content: center;
-    background-color: rgba(6, 6, 6, 0.5);
+    background-color: rgba(84, 83, 83, 0.5);
     margin: 30px 28%;
     box-shadow: inset -5px -5px -5px rgba(0, 0, 0, 0.5);
     filter: blur(0.1px);
@@ -38,7 +82,7 @@ label{
 input.text{
     border-radius: 30px;
     border: 1px  solid white;
-    width: 200px;
+    width: 180px;
     height: 5%;
     background-color: transparent;
     color: white;
@@ -78,15 +122,16 @@ input.password{
     padding-left: 10px;
 }
 
-button{
+.form button{
     margin-left:200px ;
     width: 200px;
     height:7%;
     border-radius: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-button:hover{
-    background-color: burlywood;
+.form button:hover{
+    background-color:rgb(29, 154, 203);
+    color: white;
 }
 .form .pass{
     color: white;
@@ -112,3 +157,20 @@ button:hover{
     margin-left: 200px;
 }
 
+.back{
+    color: black;
+    margin: -60px 0px 0px 300px;
+}
+.back button{
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.l {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
