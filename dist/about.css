@@ -1,0 +1,66 @@
+body{
+    object-fit: cover;
+    background: url("https://www.shutterstock.com/image-vector/star-universe-background-stardust-deep-600nw-1907210152.jpg");
+
+}
+.abt{
+    margin-top: 30px;
+    font-size: xx-large;
+    padding: 30px 70px;
+    
+    color: white;
+}
+.abt h3{
+    font-size: 500;
+}
+.abt p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+nav{
+    display: flex;
+    background: url("https://t4.ftcdn.net/jpg/06/57/60/37/360_F_657603720_ZTnJLn9wKzEaz1LwfmtfM1NInRvySUCQ.jpg");
+
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 10px 10px 40px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px gray ;
+    color: white;
+}
+.logo img{
+    object-fit: contain;
+    max-width: 15%;
+    align-items: center;
+    shadow: 15px 5px 70px rgb(132, 227, 132);
+   
+}
+.logo h1{
+text-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px #0fa, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa;    padding: 15px 15px;
+    border-radius: 2px 20px;
+}
+.action{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 0px 20px 0px 0px;
+}
+.action a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.action a:hover{
+    transform: scale(1.3);
+    text-decoration-line: underline;
+}
+.l {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}

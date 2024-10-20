@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <img src="pngwing.com.png" alt="">
+        <h1>STORY WORLD</h1>
+        </div>
+        <div class="action">
+            <a href="index.html" class="Home">Home</a>
+            <a href="about.html" class="about">About</a>
+            <!--<a href="" class="shop">Shop</a>-->
+            <a href="contact.html" class="contact">contactus</a>
+            <a href="register.html" class="login" >login/signup</a>
+        
+            <i class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+    </nav>
+    <form action="" class="form">
+        <h3>WELCOME BACK!</h3>
+        <label for="" >Username</label> <br><br>
+        <input type="text" class="text" id="name" required placeholder="enter your name"><br><br>
+        <label for="">Password</label> <br><br>
+        <input type="password" class="password" required placeholder="phone number"><br><br>
+        <a href="" class="pass">forgot password!</a><br><br>
+        <button onclick="f()">Login</button><br>
+        <p>Don't have account?<a href="register.html">Sign Up</a></p>
+    </form>
+    <div class="l">@team Story World</div>
+
+
+    <script>
+        function f(){
+            const name = document.getElementById('name').value;
+            alert(`Welcome back to story world  ${name}!!`);
+           
+        }
+    </script>
+</body>
+</html>
